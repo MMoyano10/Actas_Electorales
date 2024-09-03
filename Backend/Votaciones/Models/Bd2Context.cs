@@ -28,9 +28,9 @@ public partial class Bd2Context : DbContext
 
     public virtual DbSet<MembershipUser> MembershipUsers { get; set; }
 
-    public virtual DbSet<Parroquium> Parroquia { get; set; }
+    public virtual DbSet<Parroquia> Parroquia { get; set; }
 
-    public virtual DbSet<Provincium> Provincia { get; set; }
+    public virtual DbSet<Provincia> Provincia { get; set; }
 
     public virtual DbSet<Recinto> Recintos { get; set; }
 
@@ -334,7 +334,7 @@ public partial class Bd2Context : DbContext
             entity.Property(e => e.SignupDate).HasColumnName("signupDate");
         });
 
-        modelBuilder.Entity<Parroquium>(entity =>
+        modelBuilder.Entity<Parroquia>(entity =>
         {
             entity.HasKey(e => e.IdParroquia).HasName("PRIMARY");
 
@@ -379,7 +379,7 @@ public partial class Bd2Context : DbContext
                 .HasConstraintName("fk_region_provincia_3");
         });
 
-        modelBuilder.Entity<Provincium>(entity =>
+        modelBuilder.Entity<Provincia>(entity =>
         {
             entity.HasKey(e => e.IdProvincia).HasName("PRIMARY");
 

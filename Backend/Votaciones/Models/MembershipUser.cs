@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Votaciones.Models;
 
 public partial class MembershipUser
 {
+    [Key]
     public string MemberId { get; set; } = null!;
 
     public string? PassMd5 { get; set; }

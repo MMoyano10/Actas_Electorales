@@ -1,0 +1,47 @@
+<app-navbar></app-navbar>
+
+<div class="container mt-4">
+  <h2>Editar Novedades del Acta</h2>
+
+  <form (ngSubmit)="save()" *ngIf="novedadesActa">
+    <div class="mb-3">
+      <label for="descripcionNovedad" class="form-label">Descripción</label>
+      <input type="text" id="descripcionNovedad" class="form-control" [(ngModel)]="novedadesActa.descripcionNovedad" name="descripcionNovedad">
+    </div>
+    <div class="mb-3">
+      <label for="referencia1Novedades" class="form-label">Referencia 1 Novedad</label>
+      <input type="text" id="referencia1Novedades" class="form-control" [(ngModel)]="novedadesActa.referencia1Novedades" name="referencia1Novedades">
+    </div>
+    <div class="mb-3">
+      <label for="referencia2Novedades" class="form-label">Referencia 2 Novedad</label>
+      <input type="text" id="referencia2Novedades" class="form-control" [(ngModel)]="novedadesActa.referencia2Novedades" name="referencia2Novedades">
+    </div>
+    <div class="mb-3">
+      <label for="idJrv" class="form-label">JRV</label>
+      <input type="text" id="idJrv" class="form-control" [(ngModel)]="novedadesActa.idJrv" name="idJrv">
+    </div>
+    <div class="mb-3">
+      <label for="idRegion" class="form-label">Región</label>
+      <input type="text" id="idRegion" class="form-control" [(ngModel)]="novedadesActa.idRegion" name="idRegion">
+    </div>
+    <div class="mb-3">
+      <label for="idProvincia" class="form-label">Provincia</label>
+      <input type="text" id="idProvincia" class="form-control" [(ngModel)]="novedadesActa.idProvincia" name="idProvincia">
+    </div>
+    <div class="mb-3">
+      <label for="idCanton" class="form-label">Cantón</label>
+      <input type="text" id="idCanton" class="form-control" [(ngModel)]="novedadesActa.idCanton" name="idCanton">
+    </div>
+    <div class="mb-3">
+      <label for="idParroquia" class="form-label">Parroquia</label>
+      <input type="text" id="idParroquia" class="form-control" [(ngModel)]="novedadesActa.idParroquia" name="idParroquia">
+    </div>
+    <div class="mb-3">
+      <label for="idRecinto" class="form-label">Recinto</label>
+      <input type="text" id="idRecinto" class="form-control" [(ngModel)]="novedadesActa.idRecinto" name="idRecinto">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <button type="button" class="btn btn-secondary" (click)="cancel()">Cancelar</button>
+  </form>
+</div>

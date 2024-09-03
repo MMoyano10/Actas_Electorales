@@ -1,0 +1,43 @@
+<app-navbar></app-navbar>
+
+<div class="container mt-4">
+  <h2>Editar Acta</h2>
+
+  <form (ngSubmit)="save()" *ngIf="acta">
+    <div class="mb-3">
+      <label for="descripcion" class="form-label">Descripción</label>
+      <input type="text" id="descripcion" class="form-control" [(ngModel)]="acta.descripcionJrv" name="descripcion">
+    </div>
+    <div class="mb-3">
+      <label for="votantesm" class="form-label">Votantes Masculinos</label>
+      <input type="number" id="votantesm" class="form-control" [(ngModel)]="acta.votantesmJrv" name="votantesm">
+    </div>
+    <div class="mb-3">
+      <label for="votantesf" class="form-label">Votantes Femeninos</label>
+      <input type="number" id="votantesf" class="form-control" [(ngModel)]="acta.votantesfJrv" name="votantesf">
+    </div>
+    <div class="mb-3">
+      <label for="coordinador" class="form-label">Coordinador</label>
+      <input type="text" id="coordinador" class="form-control" [(ngModel)]="acta.coordinadorJrv" name="coordinador">
+    </div>
+    <div class="mb-3">
+      <label for="observaciones" class="form-label">Observaciones</label>
+      <input type="text" id="observaciones" class="form-control" [(ngModel)]="acta.observacionesJrv" name="observaciones">
+    </div>
+    <div class="mb-3">
+      <label for="adicionales" class="form-label">Adicionales</label>
+      <input type="text" id="adicionales" class="form-control" [(ngModel)]="acta.adicionalesJrv" name="adicionales">
+    </div>
+    <div class="mb-3">
+      <label for="archivo" class="form-label">Archivo</label>
+      <input type="text" id="archivo" class="form-control" [(ngModel)]="acta.archivoJrv" name="archivo">
+    </div>
+    <div class="mb-3">
+      <label for="imagen" class="form-label">Imagen URL</label>
+      <input type="text" id="imagen" class="form-control" [(ngModel)]="acta.imagenJrv" name="imagen">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <button type="button" class="btn btn-secondary" (click)="cancel()">Cancelar</button>
+  </form>
+</div>

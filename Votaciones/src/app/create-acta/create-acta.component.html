@@ -1,0 +1,40 @@
+<div class="container mt-4">
+    <h2>Crear Nueva Acta</h2>
+    <form (ngSubmit)="createActa()">
+      <div class="form-group">
+        <label for="descripcionJrv">Descripción</label>
+        <input type="text" id="descripcionJrv" [(ngModel)]="newActa.descripcionJrv" name="descripcionJrv" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="votantesmJrv">Votantes Masculinos</label>
+        <input type="number" id="votantesmJrv" [(ngModel)]="newActa.votantesmJrv" name="votantesmJrv" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="votantesfJrv">Votantes Femeninos</label>
+        <input type="text" id="votantesfJrv" [(ngModel)]="newActa.votantesfJrv" name="votantesfJrv" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="coordinadorJrv">Coordinador</label>
+        <input type="text" id="coordinadorJrv" [(ngModel)]="newActa.coordinadorJrv" name="coordinadorJrv" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="observacionesJrv">Observaciones</label>
+        <input type="text" id="observacionesJrv" [(ngModel)]="newActa.observacionesJrv" name="observacionesJrv" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="adicionalesJrv">Adicionales</label>
+        <input type="text" id="adicionalesJrv" [(ngModel)]="newActa.adicionalesJrv" name="adicionalesJrv" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="archivoJrv">Archivo</label>
+        <input type="text" id="archivoJrv" [(ngModel)]="newActa.archivoJrv" name="archivoJrv" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="imagenJrv">Imagen</label>
+        <input type="text" id="imagenJrv" [(ngModel)]="newActa.imagenJrv" name="imagenJrv" class="form-control">
+      </div>
+  
+      <button type="submit" class="btn btn-primary">Crear Acta</button>
+    </form>
+  </div>
+  
