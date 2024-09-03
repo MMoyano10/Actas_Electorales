@@ -12,10 +12,9 @@ export class ApiService {
   constructor(private http: HttpClient) { }
 
   getItems(): Observable<any> {
-    return this.http.get(`${this.apiUrl}/items`);
+    return this.http.get(`${this.apiUrl}/Actas`);
   }
 
-  // Ejemplo de método POST
   createItem(data: any): Observable<any> {
     return this.http.post(`${this.apiUrl}/items`, data);
   }

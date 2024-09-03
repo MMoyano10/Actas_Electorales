@@ -1,1 +1,21 @@
 <app-navbar></app-navbar>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Descripción</th>
+        <th>Coordinador</th>
+        <th>Observaciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let acta of actas">
+        <td>{{ acta.id }}</td>
+        <td>{{ acta.descripcion }}</td>
+        <td>{{ acta.coordinador }}</td>
+        <td>{{ acta.observaciones }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
