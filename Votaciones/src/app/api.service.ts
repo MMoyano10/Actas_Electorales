@@ -50,4 +50,10 @@ export class ApiService {
     return this.http.delete(`${this.apiUrl}/JrvNovedades/${id}`);
   }
 
+  getActas(): Observable<any> {
+    return this.http.get(`${this.apiUrl}/Actas`);
+  }
+  createActas(data: any): Observable<any> {
+    return this.http.post(`${this.apiUrl}/Actas`, data);
+  }
 }

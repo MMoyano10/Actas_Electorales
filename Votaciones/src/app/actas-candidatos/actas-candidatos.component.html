@@ -1,0 +1,88 @@
+<app-navbar></app-navbar>
+
+<div class="container mt-4">
+  <!-- Botón para crear una nueva entrada -->
+  <div class="mb-3">
+    <button class="btn btn-primary" (click)="createActa()">Crear Nueva Acta</button>
+  </div>
+
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Región</th>
+        <th>Provincia</th>
+        <th>Cantón</th>
+        <th>Parroquia</th>
+        <th>Recinto</th>
+        <th>Descripción</th>
+        <th>Candidato 1</th>
+        <th>Candidato 2</th>
+        <th>Candidato 3</th>
+        <th>Candidato 4</th>
+        <th>Candidato 5</th>
+        <th>Candidato 6</th>
+        <th>Candidato 7</th>
+        <th>Candidato 8</th>
+        <th>Candidato 9</th>
+        <th>Candidato 10</th>
+        <th>Candidato 11</th>
+        <th>Candidato 12</th>
+        <th>Candidato 13</th>
+        <th>Candidato 14</th>
+        <th>Candidato 15</th>
+        <th>Candidato 16</th>
+        <th>Candidato 17</th>
+        <th>Candidato 18</th>
+        <th>Candidato 19</th>
+        <th>Candidato 20</th>
+        <th>Nulos</th>
+        <th>Blancos</th>
+        <th>Observaciones</th>
+        <th>Total Padrón</th>
+        <th>Total Elección</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let acta of actasCandidatos">
+        <td>{{ acta.idActa }}</td>
+        <td>{{ acta.idRegion }}</td>
+        <td>{{ acta.idProvincia ?? 'Ninguno' }}</td>
+        <td>{{ acta.idCanton ?? 'Ninguno' }}</td>
+        <td>{{ acta.idParroquia ?? 'Ninguno' }}</td>
+        <td>{{ acta.idRecinto ?? 'Ninguno' }}</td>
+        <td>{{ acta.descripcionActa ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato1Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato2Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato3Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato4Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato5Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato6Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato7Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato8Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato9Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato10Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato11Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato12Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato13Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato14Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato15Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato16Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato17Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato18Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato19Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.candidato20Jrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.nulosJrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.blancosJrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.observacionecsJrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.totalPadronJrv ?? 'Ninguno' }}</td>
+        <td>{{ acta.totalEleccionJrv ?? 'Ninguno' }}</td>
+        <td>
+          <button class="btn btn-warning btn-sm" (click)="editActa(acta.idActa)">Editar</button>
+          <button class="btn btn-danger btn-sm" (click)="deleteActa(acta.idActa)">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

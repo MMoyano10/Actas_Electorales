@@ -1,14 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Backend\\Votaciones\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\backend\\votaciones\\context\\midbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:context\\midbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\actas_electorales\\backend\\votaciones\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\backend\\votaciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\actas_electorales\\backend\\votaciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\actas_electorales\\backend\\votaciones\\models\\jrvnovedade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:models\\jrvnovedade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\actas_electorales\\backend\\votaciones\\models\\dtos\\actadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:models\\dtos\\actadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\actas_electorales\\backend\\votaciones\\data\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:data\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\actas_electorales\\backend\\votaciones\\votaciones.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:votaciones.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\actas_electorales\\backend\\votaciones\\controllers\\actascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:controllers\\actascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\actas_electorales\\backend\\votaciones\\models\\bd2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:models\\bd2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\actas_electorales\\backend\\votaciones\\models\\jrv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:models\\jrv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\actas_electorales\\backend\\votaciones\\controllers\\jrvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:controllers\\jrvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\actas_electorales\\backend\\votaciones\\models\\dtos\\jrvdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:models\\dtos\\jrvdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\actas_electorales\\backend\\votaciones\\models\\dtos\\jrvnovedadesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:models\\dtos\\jrvnovedadesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|c:\\users\\usuario\\onedrive\\escritorio\\integrativa\\actas_electorales\\backend\\votaciones\\controllers\\jrvnovedadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD4BB40-F520-4500-A81A-EF9728424178}|Votaciones.csproj|solutionrelative:controllers\\jrvnovedadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +62,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 286,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ActaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Models\\DTOs\\ActaDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ActaDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Models\\DTOs\\ActaDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ActaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T21:53:07.519Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
@@ -38,29 +96,153 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Votaciones.http",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Votaciones.http",
+              "RelativeDocumentMoniker": "Votaciones.http",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Votaciones.http",
+              "RelativeToolTip": "Votaciones.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-06T23:37:57.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MiDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Backend\\Votaciones\\Context\\MiDbContext.cs",
-              "RelativeDocumentMoniker": "Context\\MiDbContext.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Backend\\Votaciones\\Context\\MiDbContext.cs*",
-              "RelativeToolTip": "Context\\MiDbContext.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T21:22:30.535Z",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-06T23:37:42.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Backend\\Votaciones\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Backend\\Votaciones\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-27T21:20:05.978Z",
+              "WhenOpened": "2024-09-06T23:37:35.923Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext .cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Data\\ApplicationDbContext .cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext .cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Data\\ApplicationDbContext .cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:15:53.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bd2Context.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Models\\Bd2Context.cs",
+              "RelativeDocumentMoniker": "Models\\Bd2Context.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Models\\Bd2Context.cs",
+              "RelativeToolTip": "Models\\Bd2Context.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAqwF8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:04:23.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ActasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Controllers\\ActasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ActasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Controllers\\ActasController.cs",
+              "RelativeToolTip": "Controllers\\ActasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T21:49:38.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JrvController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Controllers\\JrvController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JrvController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Controllers\\JrvController.cs",
+              "RelativeToolTip": "Controllers\\JrvController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAkwGAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T18:23:57.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JrvDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Models\\DTOs\\JrvDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\JrvDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Models\\DTOs\\JrvDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\JrvDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T21:04:49.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Jrv.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Models\\Jrv.cs",
+              "RelativeDocumentMoniker": "Models\\Jrv.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Models\\Jrv.cs",
+              "RelativeToolTip": "Models\\Jrv.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA/wCgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T21:03:41.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JrvNovedade.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Models\\JrvNovedade.cs",
+              "RelativeDocumentMoniker": "Models\\JrvNovedade.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Models\\JrvNovedade.cs",
+              "RelativeToolTip": "Models\\JrvNovedade.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAwBwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:57:38.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JrvNovedadesController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Controllers\\JrvNovedadesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JrvNovedadesController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Controllers\\JrvNovedadesController.cs",
+              "RelativeToolTip": "Controllers\\JrvNovedadesController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T16:32:21.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JrvNovedadesDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Models\\DTOs\\JrvNovedadesDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\JrvNovedadesDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Integrativa\\Actas_Electorales\\Backend\\Votaciones\\Models\\DTOs\\JrvNovedadesDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\JrvNovedadesDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T18:12:04.451Z"
             }
           ]
         },

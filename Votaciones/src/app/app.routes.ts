@@ -7,6 +7,8 @@ import { AuthGuard } from './auth.guard';
 import { CreateActaComponent } from './create-acta/create-acta.component';
 import { EditActaComponent } from './edit-acta/edit-acta.component';
 import { EditActanovedadesComponent } from './edit-actanovedades/edit-actanovedades.component';
+import { ActasCandidatosComponent } from './actas-candidatos/actas-candidatos.component';
+import { CreateActasCandidatosComponent } from './create-actas-candidatos/create-actas-candidatos.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
@@ -17,7 +19,9 @@ export const routes: Routes = [
   { path: 'create-acta', component: CreateActaComponent, canActivate: [AuthGuard] },
   { path: 'edit-acta/:id', component: EditActaComponent, canActivate: [AuthGuard] },
   {path: 'create-actanovedades', component: CreateActaComponent, canActivate: [AuthGuard]},
-  {path: 'edit-actanovedades/:id', component: EditActanovedadesComponent, canActivate: [AuthGuard]}
+  {path: 'edit-actanovedades/:id', component: EditActanovedadesComponent, canActivate: [AuthGuard]},
+  {path: 'actas-candidatos', component: ActasCandidatosComponent, canActivate: [AuthGuard]},
+  {path: 'create-actas-candidatos', component: CreateActasCandidatosComponent, canActivate: [AuthGuard]},
 ];
 
 export class AppRoutingModule { }

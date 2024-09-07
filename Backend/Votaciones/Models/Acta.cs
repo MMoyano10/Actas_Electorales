@@ -68,20 +68,22 @@ public partial class Acta
     public string? NulosJrv { get; set; }
     [Column("blancos_jrv")]
     public string? BlancosJrv { get; set; }
-    [Column("observaciones_jrv")]
+    [Column("observacionecs_jrv")]
     public string? ObservacionecsJrv { get; set; }
     [Column("total_padron_jrv")]
     public long? TotalPadronJrv { get; set; }
     [Column("total_eleccion_jrv")]
     public long? TotalEleccionJrv { get; set; }
-
+    [ForeignKey(nameof(IdCanton))]
     public virtual Canton? IdCantonNavigation { get; set; }
+    [ForeignKey(nameof(IdParroquia))]
 
     public virtual Parroquia? IdParroquiaNavigation { get; set; }
+    [ForeignKey(nameof(IdProvincia))]
 
     public virtual Provincia? IdProvinciaNavigation { get; set; }
-
+    [ForeignKey(nameof(IdRecinto))]
     public virtual Recinto? IdRecintoNavigation { get; set; }
-
+    [ForeignKey(nameof(IdRegion))]
     public virtual Region? IdRegionNavigation { get; set; }
 }

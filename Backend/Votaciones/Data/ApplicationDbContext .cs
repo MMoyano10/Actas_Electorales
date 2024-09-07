@@ -57,6 +57,11 @@ namespace Votaciones.Context
                 .WithMany(p => p.Jrvs)
                 .HasForeignKey(j => j.IdRegion);
 
+            modelBuilder.Entity<Acta>()
+                .HasOne(j => j.IdParroquiaNavigation)
+                .WithMany(p => p.Acta)
+                .HasForeignKey(j => j.IdParroquia);
+
         }
     }
 }
